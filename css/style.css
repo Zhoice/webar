@@ -3096,6 +3096,41 @@ footer {
   .stats-grid {
     grid-template-columns: 1fr 1fr;
   }
+
+  /* Apotek / Farmasi responsive */
+  .apotek-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .apotek-visual {
+    padding: 24px 20px;
+  }
+
+  .apotek-visual i {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+  }
+
+  .apotek-actions {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .apotek-actions .btn {
+    width: 100%;
+    white-space: normal;
+    justify-content: center;
+  }
+
+  .apotek-actions .btn-wa i,
+  .apotek-actions .btn-mail i {
+    font-size: 1rem;
+    padding-top: 0;
+  }
+
+  .apotek-item {
+    padding: 14px 16px;
+  }
 }
 
 @media (max-width: 480px) {
